@@ -25,9 +25,10 @@ public class ContaTerminal {
 
         scanner.close();
 
-        System.out.println("Olá " + conta.getNomeCliente() + ", obrigado por criar uma conta em nosso banco, sua agência é "
-                + conta.getAgencia() + ", conta " + conta.getNumero() + " e seu saldo " + conta.getSaldo()
-                + " já está disponível para saque.");
+        System.out.println(
+                "Olá " + conta.getNomeCliente() + ", obrigado por criar uma conta em nosso banco, sua agência é "
+                        + conta.getAgencia() + ", conta " + conta.getNumero() + " e seu saldo " + conta.getSaldo()
+                        + " já está disponível para saque.");
     }
 
     // Getters and Setters
